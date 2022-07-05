@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - prints putchar
+ * print_alphabet - prints small letter alphabets
  *
- * Return: always 0.
  */
 void print_alphabet(void)
 {
