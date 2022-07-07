@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_triangle - prints an inverted right angle triangle
+ * print_square - prints a square shape
  * @size: size of the triangle
  *
  */
 
 void print_square(int size)
 {
-	int i, j, k;
+	int i, j;
 
 	if (size <= 0)
 		_putchar('\n');
