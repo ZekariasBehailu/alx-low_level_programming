@@ -1,23 +1,15 @@
 #include "main.h"
-
 /**
- * print_line - prints distance to the given input
- * @n: distance
- *
+ * print_line - function that checks for uppercase character.
+ * @n: is the integer for the paramaters of my function
+ * Return: 0
  */
 
 void print_line(int n)
 {
-	int i, j;
+int i;
 
-	if (n <= 0)
-		_putchar('\n');
-
-	for (i = 1; i <= n; i++)
-	{
-		for (j = 1; j <= i; j++)
-			_putchar('_');
-
-		_putchar('\n');
-	}
+for (i = 0; i < n; i++)
+_putchar('_');
+_putchar('\n');
 }
